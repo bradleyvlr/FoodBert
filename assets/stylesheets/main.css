@@ -1,0 +1,249 @@
+
+/*2.0 | 20110126
+ *    License: none (public domain)
+ *    */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+    blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+/*For my Link Buttons =============================*/
+a:link {
+    color:red;
+    text-decoration:none;
+}
+a:visited{
+    color:#2f2;
+}
+
+a:hover { 
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+/*Header===================*/
+header {
+    height:150px;
+    left:0;
+    top:0;
+    width:100%;
+    background-color:orange;
+    vertical-align:bottom;
+}
+.title {
+    width:75%;
+    position:absolute;
+    left:-10%;
+    text-align:right;
+    height:150px;
+    line-height:220px;
+    padding-right:10%;
+    -webkit-transform:rotate(-10deg);
+    -moz-transform:rotate(-10deg);
+    transform:rotate(-10deg);
+    background-color:black;
+    color:#2f2;
+    font-size:5em;
+    text-transform:uppercase;
+    font-family:'VT323', sans-serif;
+}
+.hbtn {
+    width:100%;
+    height:32px;
+    margin-top:10px;
+    padding:0,10px;
+    display:inline-block;
+    float:right;
+    text-align:center;
+    bottom:5px;
+    background-color:black;
+    box-shadow: 5px;
+    border-radius:10px;
+    color:#2f2;
+    border: 2px solid white;
+    line-height:32px;
+}
+.hbtn:link{
+    color:#2f2;
+    font-family:'VT323',sans-serif;
+}
+
+.hbtn:visited{color:#2f2}
+.hbtn:hover{
+    background-color:white;
+}
+
+.navigation {
+    width:32%;
+    height:150px;
+    float:right;
+}
+
+/* This is the Article Beginning ==============*/
+body{
+    background-color:black;
+}
+article{
+    width:90%;
+    background-color:#0000d0;
+    margin: auto;
+    max-width:1700px;
+    height:450px;
+    min-height:450px;
+    max-height:1500px;
+}
+.foodbert{
+    margin-top:20px;
+    margin-left:3%;
+    width: 20%;
+    min-width:140px;
+    max-width:180px;
+    height:auto;
+    display:inline-block;
+    float:left;
+}
+.foodbert:hover{
+    background-color:black;
+}
+.intro{
+    margin-left:3%;
+    float:left;
+    display:inline-block;
+    width:68%;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-top:30px;
+    text-align:center;
+    font-size:3em;
+    font-family:'VT323',sans-serif;
+    background-color:#aaaad0;
+}
+.introp{
+    margin-left:3%;
+    background-color:#aaaad0;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:20px;
+    padding-right:20px;
+    float:left;
+    display:inline-block;
+    width:68%;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-top:10px;
+    text-align:left;
+    font-size:1em;
+    font-family:'VT323',sans-serif;
+}
+
+/*These are the selectors*/
+.menu{
+    width:100%;
+    clear:both;
+}
+.selector{
+    height:120px;
+    width:120px;
+    float: left;
+    display:inline-block;
+    border: solid 1px white;
+    margin-left:30px;
+    margin-top:40px;
+    text-align:center;
+    line-height:35px;
+    font-family:'VT323',sans-serif;
+    text-shadow:2px,2px, white;
+    font-size:19px;
+}
+.meal{
+    background-color:#f00000;
+}
+.entree{
+    background-color:#939;
+}
+.side{
+    background-color:cyan;
+}
+.dessert{
+    background-color:#f6f;
+}
+.snack{
+    background-color:#ff3;
+}
+.beverage{
+    background-color:green;
+}
+.breakfast{
+    background-color:orange;
+}
+    
+/*Random Recipe*/
+.random {
+    height: 75px;
+    width: 75px;
+    color: black;
+    font-family:'VT323',sans-serif;
+    text-align:center;
+    line-height: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:#2f2;
+    position: fixed;
+    right:15px;
+    bottom:0;
+}
+
+/*Footer ======================================= */
+footer {
+    width:100%;
+    clear:both;
+    height:30px;
+    background-color:#eee;
+    line-height:30px;
+
+}
+
