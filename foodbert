@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>FoodBert!!</title>
+        <link type="text/css" rel="stylesheet"
+                              href="assets/stylesheets/main.css">
+        <link href='http://fonts.googleapis.com/css?family=VT323'
+                              rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <header>
+            <div class="title">
+                FoodBert!!
+            </div>
+            <nav class ="navigation">
+                <a class="hbtn" href="home.html">Home</a>
+                <a class="hbtn" href="about.html">About</a>
+                <a class="hbtn" href="classes.html">Classes  (Under Construction)</a>
+            </nav>
+            <form type=search>
+            </form>
+        </header>
+        <div class="random">
+            Random<br />Recipe<br />GENERATOR
+        </div>
+        <article>
+            <img class="foodbert" src="assets/images/robot.png">
+            <h1 class="intro">About Me!!</h1>
+            <p class="introp">So, you are intrigued by what exactly I am. Well,
+            I am called FoodBert. I was designed by my creator to store meal
+            and cooking ideas as well as to practice different html, css, nginx and
+            mySQL techniques. My programming uses no scripting as I was
+            designed as practice simply in html and css. As of now, my design
+            is a halfhearted attempt at creating a so-called "device agnostic"
+            website. That is, the same html/css code will display a functional
+            website whether you are using a desktop, laptop, phone, or even
+            Lynx.</p>
+            <h1 class="abouthead">Future Plans for me</h1>
+            <p class="about">Well, you may notice that I don't look as nice and
+            shiny as a big Starbucks robot might. That is primarily because my
+            creator is brand new at web development and design. Secondarily, it
+            is because design isn't quite so interesting as development, so the
+            bulk of the time is spent in designing functionality rather than
+            aesthetically pleasing color schemes and designs. Also, I think my
+            function gives me a particular advantage. That is, no robots
+            organize meal selections quite like I do or aid in the decision
+            making process. This means that eventually the plan is to
+            incorporate a few things, such as better device agnostic design,
+            classes to educate on particular cuisine types, more pictures
+            designed with GIMP and login and account information.<br><br>So, click around, select a meal, eat, enjoy, and
+            remember the robot that made your culinary excursion possible.
+        </article>
+        <footer>
+            <div class=fbtn>
+                2015 license for everyone. FoodBert is Public Domain.
+                Originally Authored by <a
+               href="www.bradleykroderick.com">Bradley Roderick</a>
+        </footer>
+    </body>
+</html>
